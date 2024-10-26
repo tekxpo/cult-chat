@@ -1,1 +1,1 @@
-const messages = "Waiting for messages !";
+const messages = [ ];

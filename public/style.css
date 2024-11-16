@@ -91,8 +91,21 @@ body {
     letter-spacing: normal;
     position: absolute;
     height: 49px;
-    margin-top: 25git0px;
+    margin-top: 200px;
     text-align: left;
-    margin-left: 3;
+    margin-left: 3px;
 
 }
+.login-1{
+    width: 375px;
+    height: 37px;;
+    position: absolute;
+    margin: 14px 179px 14px 360px;
+    padding: 10px;
+    margin-left: -6px;
+    color: #000; 
+    margin-top: 250px;
+}
+  input[type=text]:focus {
+    border: 2px solid #555;
+  }

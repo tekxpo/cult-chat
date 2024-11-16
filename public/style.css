@@ -45,13 +45,10 @@ body {
 
 .login-area{
     width: 50%;
-    height: 500px;
 }
 
 .image-area{
     width: 50%;
-    height: 500px;
-    background-color: #f2015a;
 }
 
 @media (max-width: 800px) {
@@ -108,4 +105,8 @@ body {
 }
   input[type=text]:focus {
     border: 2px solid #555;
+  }
+
+  .chat-image {
+    width: 100%;
   }

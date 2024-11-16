@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>This is for test</title>
+        <style>
+            .message-one {
+                width: 400px;
+                height: 200px;
+                background-color: brown;
+            }
+
+            .message-two {
+                width: 400px;
+                height: 200px;
+                background-color: blue;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: row;
+            }
+
+            @media (min-width: 900px) {
+                .message-one {
+                    display: none;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="message-one">Message 1</div>
+       
+            <div class="message-two">Message 2</div>
+        </div>
+
+        
+
+        <span>Message 1</span>
+        <span>Message 2</span>
+
+        <ul>
+            <li>Message 1</li>
+            <li>Message 2</li>
+        </ul>
+    </body>
+</html>
+
+
+1. Create an html page.
+2. add two division.
+3. Give the divisions two different colors.
+4. On a smaller screen swap the two colors.

@@ -51,6 +51,7 @@ body {
 .image-area{
     width: 50%;
     height: 500px;
+    background-color: #f2015a;
 }
 
 @media (max-width: 800px) {
@@ -70,7 +71,7 @@ body {
 
 .large-text {
     width: 50%;
-    background-image: linear-gradient(to left, #4355dc 79%, #f2015a 36%, #f2015a 25%);
+    background-image: linear-gradient(83.84deg, #0088FF -6.87%, #A033FF 26.54%, #FF5C87 58.58%);
     /* font-family: Inter; */
     font-family: Calibre;
     font-size: 70px;
@@ -89,7 +90,6 @@ body {
     width: 480px;
     font-weight: bold;
     letter-spacing: normal;
-    position: absolute;
     height: 49px;
     margin-top: 200px;
     text-align: left;

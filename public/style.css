@@ -40,7 +40,7 @@ body {
 .content-layout{
     display: flex;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 .login-area{
@@ -83,4 +83,16 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.small-text{
+    width: 480px;
+    font-weight: bold;
+    letter-spacing: normal;
+    position: absolute;
+    height: 49px;
+    margin-top: 200px;
+    text-align: left;
+    margin-left: 0;
+
 }

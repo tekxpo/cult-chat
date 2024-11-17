@@ -53,22 +53,6 @@ body {
     width: 50%;
 }
 
-@media (max-width: 800px) {
-    .content-layout{
-        flex-direction: column;
-    }
-
-    .login-area{
-        width: 100%;
-
-    }
-    
-    .image-area{
-        
-        width: 100%;
-    }
-}
-
 .large-text {
     width: 50%;
     background-image: linear-gradient(83.84deg, #0e29d8 -6.87%, #ca2323 26.54%, #0c5fee 58.58%);
@@ -143,7 +127,34 @@ body {
     background-color: #fff;
 
 }
-.chat-image {
+.chat-image-big {
     width: 100%;
-  }
-  
+}
+
+.chat-image-small {
+    display: none;
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    .content-layout{
+        flex-direction: column;
+    }
+
+    .login-area{
+        width: 100%;
+
+    }
+    
+    .image-area{
+        width: 100%;
+    }
+
+    .chat-image-big {
+        display: none;
+    }
+
+    .chat-image-small {
+        display: block;
+    }
+}

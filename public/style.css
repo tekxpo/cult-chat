@@ -20,6 +20,7 @@ body {
     .main-header {
         /* height: 50px;
         background-color: black; */
+        
     }
 }
 
@@ -44,6 +45,7 @@ body {
 }
 
 .login-area{
+
     width: 50%;
 }
 
@@ -62,20 +64,21 @@ body {
     }
     
     .image-area{
+        
         width: 100%;
     }
 }
 
 .large-text {
     width: 50%;
-    background-image: linear-gradient(83.84deg, #0088FF -6.87%, #A033FF 26.54%, #FF5C87 58.58%);
-    /* font-family: Inter; */
+    background-image: linear-gradient(83.84deg, #0e29d8 -6.87%, #ca2323 26.54%, #0c5fee 58.58%);
     font-family: Calibre;
-    font-size: 70px;
+    margin:184px 19px 360px;
+    font-size: 80px;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
-    line-height: normal;
+    line-height:0.8;
     letter-spacing: normal;
     text-align: left;
     -webkit-background-clip: text;
@@ -85,10 +88,9 @@ body {
 
 .small-text{
     width: 480px;
-    font-weight: bold;
+    font-family: Calibre;
     letter-spacing: normal;
     height: 49px;
-    margin-top: 200px;
     text-align: left;
     margin-left: 3px;
 
@@ -103,10 +105,45 @@ body {
     color: #000; 
     margin-top: 250px;
 }
-  input[type=text]:focus {
-    border: 2px solid #555;
-  }
+  
+ 
+  .input-unit input[type="text"],
+  .input-unit input[type="password"] {
+    width: 50%;
+    padding: 7px;
+    margin: 5px 0px;
+    border: 1px solid #dddfe2;
+    border-radius: 4px;
+    font-size: 10px;
+    background-color: #f0f2f5;    }
+.password-unit{
+    margin-bottom: 10px;
+}
+.Btn button {
+    width: 12%;
+      padding: 7px;
+      background-color: #1877f2;
+      border: none;
+      border-radius: 18px;
+      color: #ffffff;
+      font-size: 12px;
+      cursor: pointer;}
 
-  .chat-image {
+.Btn p{
+    font-size: 14px;
+      color: #606770;
+      display: inline-block;
+      vertical-align: middle;}
+
+.Btn input {
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+    border: solid 1px rgba(0, 0, 0, 0.32);
+    background-color: #fff;
+
+}
+.chat-image {
     width: 100%;
   }
+  
